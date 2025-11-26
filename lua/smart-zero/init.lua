@@ -1,4 +1,3 @@
--- lua/cycle-zero/init.lua
 local M = {}
 
 -- 存储每行的关键位置
