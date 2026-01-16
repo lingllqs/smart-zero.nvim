@@ -1,6 +1,6 @@
 local M = {}
 
-local core = require("smart-zero.core")
+local core = require("smart_zero.core")
 
 local default_config = {
 	keymap = "0",
