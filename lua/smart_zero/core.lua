@@ -25,13 +25,13 @@ function M.smart_move()
 		if indent > 0 then
 			target_col = indent
 		else
-			target_col = width
+			target_col = #line
 		end
 	elseif vcol < width then
         if vcol < indent then
             target_col = indent
         else
-            target_col = width
+            target_col = #line
         end
 	else
 		target_col = 0
