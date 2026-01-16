@@ -1,6 +1,6 @@
 local M = {}
 
-function M.magic_move()
+function M.smart_move()
 	local win = 0
 
 	-- 光标位置（row: 1-based, col: 0-based byte）
